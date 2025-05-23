@@ -1,20 +1,45 @@
 export const en = {
   translation: {
+    header: {
+      title: 'AI Platform',
+    },
     common: {
       back: 'Back',
       submit: 'Submit',
       loading: 'Loading...',
     },
-    header: {
-      title: 'AI Platform',
+    website: {
+      title: 'Website Generator',
+      promptPlaceholder: 'Describe the website you want to create...',
+      generate: 'Generate Website',
     },
-    tools: {
-      title: 'Choose a Tool',
-      subtitle: 'Select a tool to start creating with AI assistance',
+    marketing: {
+      title: 'Marketing Generator',
+      platforms: {
+        instagram: 'Instagram',
+        tiktok: 'TikTok',
+        facebook: 'Facebook',
+        youtube: 'YouTube',
+      },
+      nichePlaceholder: 'Enter your business niche...',
+      generate: 'Generate Content',
     },
-    prompt: {
-      placeholder: 'Describe your project...',
-      submit: 'Generate',
+    herbalist: {
+      title: 'Herbal Advisor',
+      symptomsPlaceholder: 'Describe your symptoms or health concerns...',
+      consult: 'Get Herbal Advice',
+      form: 'Form',
+      dosage: 'Dosage',
+      warnings: 'Warnings',
+    },
+    integrations: {
+      title: 'Integrations',
+      exportWordPress: 'Export to WordPress',
+      postSocial: 'Post to Social Media',
+      comingSoon: 'Coming Soon!',
+    },
+    language: {
+      select: 'Select Language',
     },
   },
 };
